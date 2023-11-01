@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch__2021043545___.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+    <style>
+      @font-face {
+        font-family: "PyeongChangPeace-Bold";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+          format("woff2");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        /* width : 100%; */
+        font-family: Arial, sans-serif;
+      }
+      a {
+        text-align: left;
+        color: antiquewhite;
+      }
+      header,
+      footer {
+        font-family: "PyeongChangPeace-Bold";
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      main {
+        flex-grow: 1;
+        /* padding: 20px; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title"></h1>
+      키워드: <input type="text" id="keyword" />
+      <button onclick="changekeyWord()">검색</button><br />
+    </header>
+
+    <main>
+      <!-- <canvas></canvas> -->
+    </main>
+
+    <footer>
+      <ul id="videolist"></ul>
+    </footer>
+  </body>
+</html>
